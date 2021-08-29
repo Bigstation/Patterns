@@ -8,6 +8,6 @@ def application(environ, start_response):
     # возвращаем тело ответа в виде списка из bite
     return [b'Hello world from a simple WSGI application!']
 
+
 # cd/mnt/c/NewWork/Patterns/lesson1
 # uwsgi --http :8000 --wsgi-file fwsgi.py
-# 12345
