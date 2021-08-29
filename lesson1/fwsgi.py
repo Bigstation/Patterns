@@ -10,3 +10,4 @@ def application(environ, start_response):
 
 # cd/mnt/c/NewWork/Patterns/lesson1
 # uwsgi --http :8000 --wsgi-file fwsgi.py
+# 1234
